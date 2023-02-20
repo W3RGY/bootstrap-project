@@ -163,6 +163,11 @@ nav {
 	text-align: center;
 }
 
+.label__white {
+	background-color: #fff;
+	color: #000;
+}
+
 .title {
     margin-bottom: 0;
     margin-top: 38px;
@@ -173,6 +178,10 @@ nav {
     text-align: center;
 }
 
+.title__white {
+color: #fff;
+}
+
 .subtitle {
 	margin-top: 19px;
 	font-size: 17px;
@@ -180,6 +189,10 @@ nav {
 	font-weight: 400;
 	text-align: center;
 }
+
+.subtitle__white {
+	color: #fff;
+};
 
 .reasons .reasons__block {
     display: flex;
@@ -277,4 +290,33 @@ nav {
 	margin: 0 auto;
 	border-radius: 100%;
 	cursor: pointer;
+}
+
+.choice {
+	position: relative;
+	min-height: 895px;
+	padding: 57px 0 138px 0;
+	background: url('../img/bg/mobile_app.png') center (center / cover) no-repeat;
+}
+.choice__img {
+	position: relative;
+	display: block;
+	margin: 56px auto 0 auto;
+	z-index: 2;
+}
+.choice__descr {
+		text-align: center;
+		color: #222222;
+		font-size: 17px;
+		font-weight: 300;
+		line-height: 24px;
+}
+.black {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 499px;
+		width: 100%;
+		background-color: #070716;
+		z-index: 1;
 }
